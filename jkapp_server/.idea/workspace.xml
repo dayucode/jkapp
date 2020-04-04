@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b81ff482-71a6-4928-8e54-07d7747eb1ad" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/respository/maven_respository" />
+        <option name="mavenHome" value="$USER_HOME$/config/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="$USER_HOME$/config/apache-maven-3.6.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1Z51NQ58CaA9Ca0Iktxubbgdwm5" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mybatis/mapper" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/dayu/jkapp/server/untils" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.dayu.jkapp.server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/mybatis/mapper" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dayu.jkapp.server.pojo" />
+      <recent name="com.dayu.jkapp.server.service.serviceimpl" />
+      <recent name="com.dayu.jkapp.server.service" />
+      <recent name="com.dayu.jkapp.server.mapper" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dayu.jkapp.server" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="JkappServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jkapp_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dayu.jkapp.server.JkappServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b81ff482-71a6-4928-8e54-07d7747eb1ad" name="Default Changelist" comment="" />
+      <created>1584114100174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584114100174</updated>
+      <workItem from="1584114138738" duration="786000" />
+      <workItem from="1584114945152" duration="448000" />
+      <workItem from="1584115404562" duration="2217000" />
+      <workItem from="1584154192268" duration="11776000" />
+      <workItem from="1584183748009" duration="4971000" />
+      <workItem from="1584188865511" duration="3228000" />
+      <workItem from="1584241867626" duration="3431000" />
+      <workItem from="1584245846816" duration="7645000" />
+      <workItem from="1584259671929" duration="1010000" />
+      <workItem from="1584280529218" duration="30000" />
+      <workItem from="1584322232442" duration="366000" />
+      <workItem from="1584326186288" duration="7659000" />
+      <workItem from="1584410774509" duration="2199000" />
+      <workItem from="1584455513322" duration="1049000" />
+      <workItem from="1584521575677" duration="9749000" />
+      <workItem from="1584586131689" duration="4489000" />
+      <workItem from="1584702435013" duration="13000" />
+      <workItem from="1584760736842" duration="2245000" />
+      <workItem from="1584778332728" duration="328000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1360" y="205" key="#SQL_Dialects" timestamp="1584166532917">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1360" y="205" key="#SQL_Dialects/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584166532917" />
+    <state x="-1147" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1584590118177">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1147" y="231" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584368361989" />
+    <state x="515" y="171" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1584187589314" />
+    <state x="515" y="171" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800/-1920.23.1920.1057@0.0.1280.800" timestamp="1584186822503" />
+    <state x="-1147" y="249" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1584590118177" />
+    <state x="-1439" y="472" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584165213083">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1439" y="472" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584165213083" />
+    <state x="-1186" y="427" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1584165214615">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1186" y="427" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584165214615" />
+    <state x="-1334" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584537808082">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1334" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584166135675" />
+    <state x="-1334" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1584537808082" />
+    <state width="1878" height="318" key="GridCell.Tab.0.bottom" timestamp="1584774942141">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="597" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584373567250" />
+    <state width="1238" height="75" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1584203143222" />
+    <state width="1878" height="318" key="GridCell.Tab.0.bottom/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1584774942141" />
+    <state width="1878" height="318" key="GridCell.Tab.0.center" timestamp="1584774942140">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="597" key="GridCell.Tab.0.center/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584373567249" />
+    <state width="1238" height="75" key="GridCell.Tab.0.center/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1584203143220" />
+    <state width="1878" height="318" key="GridCell.Tab.0.center/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1584774942140" />
+    <state width="1878" height="318" key="GridCell.Tab.0.left" timestamp="1584774942140">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="597" key="GridCell.Tab.0.left/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584373567248" />
+    <state width="1238" height="75" key="GridCell.Tab.0.left/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1584203143219" />
+    <state width="1878" height="318" key="GridCell.Tab.0.left/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1584774942140" />
+    <state width="1878" height="318" key="GridCell.Tab.0.right" timestamp="1584774942141">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="597" key="GridCell.Tab.0.right/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584373567250" />
+    <state width="1238" height="75" key="GridCell.Tab.0.right/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1584203143221" />
+    <state width="1878" height="318" key="GridCell.Tab.0.right/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1584774942141" />
+    <state width="1878" height="318" key="GridCell.Tab.1.bottom" timestamp="1584774942142">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="597" key="GridCell.Tab.1.bottom/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584373567253" />
+    <state width="1238" height="75" key="GridCell.Tab.1.bottom/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1584203143224" />
+    <state width="1878" height="318" key="GridCell.Tab.1.bottom/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1584774942142" />
+    <state width="1878" height="318" key="GridCell.Tab.1.center" timestamp="1584774942141">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="597" key="GridCell.Tab.1.center/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584373567252" />
+    <state width="1238" height="75" key="GridCell.Tab.1.center/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1584203143223" />
+    <state width="1878" height="318" key="GridCell.Tab.1.center/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1584774942141" />
+    <state width="1878" height="318" key="GridCell.Tab.1.left" timestamp="1584774942141">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="597" key="GridCell.Tab.1.left/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584373567251" />
+    <state width="1238" height="75" key="GridCell.Tab.1.left/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1584203143222" />
+    <state width="1878" height="318" key="GridCell.Tab.1.left/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1584774942141" />
+    <state width="1878" height="318" key="GridCell.Tab.1.right" timestamp="1584774942142">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="597" key="GridCell.Tab.1.right/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584373567252" />
+    <state width="1238" height="75" key="GridCell.Tab.1.right/0.0.1280.800/-1920.0.1920.1080@0.0.1280.800" timestamp="1584203143224" />
+    <state width="1878" height="318" key="GridCell.Tab.1.right/0.23.1280.777/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1584774942142" />
+    <state x="-1422" y="202" key="Maven.ArtifactSearchDialog" timestamp="1584184329834">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1422" y="202" key="Maven.ArtifactSearchDialog/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584184329834" />
+    <state x="-1451" y="179" key="SettingsEditor" timestamp="1584245829251">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1451" y="179" key="SettingsEditor/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584115485448" />
+    <state x="-1451" y="179" key="SettingsEditor/0.23.1280.777/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584245829251" />
+    <state x="-1295" y="241" key="search.everywhere.popup" timestamp="1584368359039">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1295" y="241" key="search.everywhere.popup/0.0.1280.800/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1584368359039" />
+  </component>
+</project>

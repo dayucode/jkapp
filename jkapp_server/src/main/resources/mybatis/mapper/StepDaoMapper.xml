@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dayu.jkapp.server.mapper.StepDao">
+
+    <insert id="save" parameterType="Step">
+        insert into step (name,date,step,cid) values (#{name}, #{date},#{step},#{cid});
+    </insert>
+
+    <update id="update"  parameterType="Step">
+        UPDATE step
+        <trim prefix="set" suffixOverrides=",">
+            <if test="name!=null">name=#{name},</if>
+            <if test="date!=null">date=#{date},</if>
+            <if test="step!=null">step=#{step},</if>
+        </trim>
+        WHERE date=#{date} AND cid=#{cid}
+    </update>
+
+
+
+
+</mapper>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dayu.jkapp.server.mapper.HealthDao">
+
+    <insert id="save" parameterType="Health">
+        insert into health (cid,name,date,age,weight,height,bmi,beat,presshigh,presslow,bloodsugar)
+        values (#{cid},#{name},#{date},#{age},#{weight},#{height},#{bmi},#{beat},#{presshigh},#{presslow},#{bloodsugar});
+    </insert>
+
+    <update id="update" parameterType="Health">
+        UPDATE health
+        <trim prefix="set" suffixOverrides=",">
+            <if test="name!=null">name=#{name},</if>
+            <if test="date!=null">date=#{date},</if>
+            <if test="age!=null">age=#{age},</if>
+            <if test="weight!=null">weight=#{weight},</if>
+            <if test="height!=null">height=#{height},</if>
+            <if test="bmi!=null">bmi=#{bmi},</if>
+            <if test="beat!=null">beat=#{beat},</if>
+            <if test="presshigh!=null">presshigh=#{presshigh},</if>
+            <if test="presslow!=null">presslow=#{presslow},</if>
+            <if test="bloodsugar!=null">bloodsugar=#{bloodsugar},</if>
+        </trim>
+        WHERE cid=#{cid}
+    </update>
+
+</mapper>
+

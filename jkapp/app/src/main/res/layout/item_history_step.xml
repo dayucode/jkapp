@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="@color/color_main"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:text="日期"/>
+    <TextView
+        android:id="@+id/tv_step"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="@color/red"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:text="步数"/>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jk.wyq.jkapp.MineModule.MineFragment">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:minHeight="100dp"
+        android:paddingTop="20dp"
+        android:background="@color/color_main">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/icon_shape"
+            android:src="@mipmap/head"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="王玉琦"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_alignTop="@+id/icon"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/bg_white"/>
+
+        <TextView
+            android:id="@+id/txt_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/icon"
+            android:layout_alignLeft="@+id/name"
+            android:text="积分：0"
+            android:textSize="18dp"
+            android:textColor="@color/bg_white"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color_main"
+        android:textColor="@color/bg_white"
+        android:text="退出登录"/>
+
+</LinearLayout>

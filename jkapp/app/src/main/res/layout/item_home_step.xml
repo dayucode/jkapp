@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:text="今日步数"
+        android:textStyle="bold"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="今日计划"
+                android:textAlignment="center"/>
+            <TextView
+                android:id="@+id/plan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="7000"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/red"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="已经行走"
+                android:textAlignment="center"/>
+            <TextView
+                android:id="@+id/finish"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="500"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/red"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
