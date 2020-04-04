@@ -16,3 +16,22 @@
 ### 记步源码 https://github.com/linglongxin24/DylanStepCount/blob/master/README.md </br>
 ### 记步原理 https://www.jianshu.com/p/5d57f7fd84fa </br>
 ### https://github.com/finnfu/stepcount/tree/master/demo
+
+### Apk测试页面展示</br>
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG38.jpeg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG39.jpeg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG40.jpeg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG41.jpeg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG42.jpeg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG43.jpeg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG44.jpeg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG45.jpeg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG46.jpeg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG47.jpeg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG48.jpeg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG49.jpeg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG50.jpeg)
+
+
+
+
