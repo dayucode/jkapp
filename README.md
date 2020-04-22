@@ -3,7 +3,7 @@
 ### 开发工具：AndriodStudio3.6+IntelliJIDEA2019</br>
 ### 简要描述：</br>
 #### 本系统分为客户端和服务端
-#### 前后端交互使用的是Http方式
+#### 客户端与服务器交互使用的是Http方式
 #### 接口采用restful风格
 #### 具体实现功能请看截图
 
@@ -18,33 +18,28 @@
 ### https://github.com/finnfu/stepcount/tree/master/demo
 
 ### Apk测试页面展示</br>
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG1.jpeg)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG2.png)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG3.png)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG4.jpeg)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG5.jpeg)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG6.png)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG7.png)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG8.png)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG9.png)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG10.jpeg)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG11.jpeg)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG12.png)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG13.jpeg)
-
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG14.jpeg)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG15.png)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG16.png)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG4.jpeg)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG5.jpeg)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG6.png)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG7.png)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG8.png)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG9.png)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG10.jpeg)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG11.jpeg)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG12.png)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG13.jpeg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG1.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG2.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG3.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG4.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG5.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG6.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG7.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG8.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG9.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG10.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG11.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG12.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG13.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG14.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG15.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG16.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG17.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG18.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG19.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG20.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG21.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG22.jpg)
 
 
 
