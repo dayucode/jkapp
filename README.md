@@ -41,7 +41,11 @@
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG21.jpg)
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG22.jpg)
 
-
+#### 如有任何问题请咨询
+#### 微信：
+![image](https://github.com/laughter-dayu/github.io/blob/master/pic/WechatIMG27.jpeg)
+#### 或邮箱
+#### 1161449935@qq.com
 
 
 
