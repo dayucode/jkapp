@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jk.wyq.jkapp">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jk.dayu.jkapp">
 
     <!-- 计歩 -->
     <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
 
     <uses-feature android:name="android.hardware.sensor.accelerometer" />
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
 
     <uses-feature
         android:name="android.hardware.sensor.stepcounter"
@@ -32,12 +37,13 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".BaseModule.MainActivity"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator,LockedOrientationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -46,19 +52,23 @@
         </activity>
         <activity
             android:name=".StepModule.activity.StepActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            tools:ignore="InnerclassSeparator,LockedOrientationActivity" />
         <activity
             android:name=".StepModule.activity.SetPlanActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            tools:ignore="InnerclassSeparator,LockedOrientationActivity" />
         <activity
             android:name=".StepModule.activity.HistoryActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            tools:ignore="InnerclassSeparator,LockedOrientationActivity" />
 
         <service
             android:name=".StepModule.step.service.StepService"
-            android:priority="1000">
+            android:priority="1000"
+            tools:ignore="InnerclassSeparator">
             <intent-filter>
 
                 <!-- 系统启动完成后会调用 -->
@@ -74,7 +84,8 @@
         <service
             android:name=".StepModule.pedometer.StepsDetectService"
             android:priority="1000"
-            android:process=".StepsDetectService">
+            android:process=".StepsDetectService"
+            tools:ignore="InnerclassSeparator">
             <intent-filter>
 
                 <!-- 系统启动完成后会调用 -->
@@ -90,32 +101,49 @@
 
         <activity
             android:name=".HeartBeatModule.HeartBeatActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
         <activity
             android:name=".HealthModule.HealthSelectActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
         <activity
             android:name=".HealthModule.BaseHealthActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
         <activity
             android:name=".HealthModule.AdvanceHealthActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
         <activity
             android:name=".HealthModule.HealthResultActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
         <activity
             android:name=".UserModule.LoginActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
         <activity
             android:name=".BaseModule.WebActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
         <activity android:name=".UserModule.PunchActivity" />
         <activity
             android:name=".UserModule.RegisterActivity"
             android:label="@string/title_activity_register"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".HealthModule.AddTimeActivity" />
-        <activity android:name=".UserModule.ShopActivity"></activity>
+        <activity android:name=".UserModule.DoctorListActivity"></activity>
+
+        <activity android:name=".Interrogation.InterrogationActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity android:name=".Interrogation.AddConditionActivity"
+            tools:ignore="InnerclassSeparator" />
+        <activity android:name=".Interrogation.AddReplyActivity"></activity>
+        <activity android:name=".Interrogation.DoctorActivity"></activity>
+        <activity android:name=".Interrogation.ShowReplyActivity"></activity>
+        <activity android:name=".Interrogation.ShowConditionsActivity"></activity>
     </application>
 
 </manifest>

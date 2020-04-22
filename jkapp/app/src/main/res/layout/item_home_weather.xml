@@ -9,58 +9,52 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:paddingLeft="20dp"
+        android:paddingLeft="22dp"
         android:paddingTop="5dp"
-        android:text="今日天气"
+        android:text="&#12288;&#8194;今日天气"
         android:textStyle="bold"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/grey"/>
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp">
-
-        <!--<ImageView-->
-            <!--android:id="@+id/icon"-->
-            <!--android:layout_width="53dp"-->
-            <!--android:layout_height="53dp"-->
-            <!--android:layout_alignParentLeft="true"-->
-            <!--android:layout_alignParentTop="true"-->
-            <!--android:layout_centerVertical="true"-->
-            <!--android:paddingLeft="10dp"-->
-            <!--android:src="@mipmap/head" />-->
-
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
         <TextView
+            android:gravity="right"
             android:id="@+id/weather"
-            android:layout_width="120dp"
-            android:layout_height="60dp"
-            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:layout_marginTop="2dp"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="20dp"
-            android:textSize="20dp"
+            android:textSize="15sp"
+            android:text="高温23'C,低温1'C"
             android:textStyle="bold"/>
-
-        <TextView
-            android:id="@+id/tip"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:gravity="left"
+            android:paddingLeft="30dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@+id/weather"
-            android:layout_alignTop="@+id/weather"
-            android:layout_marginLeft="10dp"
-            android:text="天气晴，西北风1-2级" />
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tip"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="天气晴，西北风1-2级"/>
 
-        <TextView
-            android:id="@+id/ganmao"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/tip"
-            android:layout_marginTop="15dp"
-            android:layout_alignLeft="@+id/tip"
-            android:text="极少敏感适极少合户外运动极少"
-            android:textColor="@color/red"
-            android:textSize="18dp" />
-    </RelativeLayout>
+            <TextView
+                android:id="@+id/ganmao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tip"
+                android:layout_marginTop="5dp"
+                android:layout_alignLeft="@+id/tip"
+                android:text="极少敏感适极少合户外运动极少"
+                android:textColor="@color/red"/>
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>

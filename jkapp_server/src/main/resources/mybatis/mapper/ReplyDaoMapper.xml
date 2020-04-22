@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dayu.jkapp.server.mapper.ReplyDao">
+
+    <resultMap id="replyList" type="Reply">
+        <id column="rid" property="rid" />
+        <result column="content" property="content" />
+        <result column="uid" property="uid" />
+        <result column="did" property="did" />
+        <result column="cid" property="cid" />
+    </resultMap>
+
+    <insert id="insert">
+        insert into reply (rid,content, uid, did, cid) values (#{rid},#{content}, #{uid}, #{did}, #{cid});
+    </insert>
+
+    <select id="doctor2select" resultMap="replyList">
+        select * from reply where did = #{did};
+    </select>
+
+    <select id="user2select" resultMap="replyList">
+        select * from reply where uid = #{uid};
+    </select>
+
+    <update id="update"  parameterType="com.dayu.jkapp.server.pojo.Reply">
+        UPDATE user
+        <trim prefix="set" suffixOverrides=",">
+            <if test="symptoms!=null">symptoms=#{symptoms},</if>
+            <if test="time!=null">time=#{time},</if>
+            <if test="details!=details">details=#{details},</if>
+        </trim>
+        WHERE rid=#{rid}
+    </update>
+
+</mapper>

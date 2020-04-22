@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public interface StepService {
 
-	public void save(Step step);
-	public void update(Step step);
+	void save(Step step);
+
+	void update(Step step);
 }

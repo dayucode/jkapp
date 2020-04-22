@@ -10,7 +10,7 @@
         android:layout_height="30dp"
         android:paddingLeft="20dp"
         android:paddingTop="5dp"
-        android:text="健康提示"
+        android:text="&#12288;&#8194;健康提示"
         android:textStyle="bold"
         />
     <View
@@ -26,16 +26,17 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="喝水"
-            android:textSize="24dp"
-            android:textColor="@color/color_main"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:paddingRight="20dp"
             android:textAlignment="center" />
         <TextView
+            android:paddingLeft="20dp"
             android:id="@+id/txt_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="20:09"
-            android:textSize="24dp"
             android:textColor="@color/red"
             android:textAlignment="center" />
     </LinearLayout>

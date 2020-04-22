@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="time" >
+        <item>请选择症状持续时间</item>
+        <item>三天以内</item>
+        <item>一周以内</item>
+        <item>一月以内</item>
+        <item>一年以内</item>
+        <item>一年以上</item>
+    </string-array>
+
+
+</resources>

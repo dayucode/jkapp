@@ -10,7 +10,7 @@
         android:layout_height="30dp"
         android:paddingLeft="20dp"
         android:paddingTop="5dp"
-        android:text="今日步数"
+        android:text="&#12288;&#8194;今日步数"
         android:textStyle="bold"/>
     <View
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:baselineAligned="false" android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -39,7 +39,7 @@
                 android:textAlignment="center"
                 android:text="7000"
                 android:textStyle="bold"
-                android:textSize="30dp"
+                android:textSize="25dp"
                 android:textColor="@color/red"/>
         </LinearLayout>
 
@@ -60,7 +60,7 @@
                 android:textAlignment="center"
                 android:text="500"
                 android:textStyle="bold"
-                android:textSize="30dp"
+                android:textSize="25dp"
                 android:textColor="@color/red"/>
 
         </LinearLayout>

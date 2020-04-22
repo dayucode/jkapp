@@ -3,9 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.jk.wyq.jkapp.TipsModule.TipsFragment">
-
+    tools:context="com.jk.dayu.jkapp.TipsModule.TipsFragment">
     <SearchView
+        android:layout_marginTop="20dp"
         android:id="@+id/search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

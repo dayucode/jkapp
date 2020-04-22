@@ -8,8 +8,8 @@
         android:id="@+id/id_preview"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp" />
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp" />
 
     <LinearLayout
         android:id="@+id/id_linearLayout_graph"

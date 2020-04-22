@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dayu.jkapp.server.mapper.DoctorDao">
+    <resultMap id="doctorList" type="Doctor">
+        <id column="did" property="did" />
+        <result column="username" property="username" />
+        <result column="introduce" property="introduce" />
+    </resultMap>
+
+    <select id="queryAllDoctor"  resultMap="doctorList" >
+        select did,username,introduce from doctor
+    </select>
+    <insert id="insert">
+        insert into doctor (did,username, password, introduce,role) values (#{did}, #{username}, #{password}, #{introduce}, #{role});
+    </insert>
+
+    <select id="select" resultType="com.dayu.jkapp.server.pojo.Doctor">
+        select did,username,role from doctor where username = #{username} and password = #{password} and role = #{role};
+    </select>
+
+
+</mapper>

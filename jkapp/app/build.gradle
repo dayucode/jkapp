@@ -3,12 +3,17 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.jk.wyq.jkapp"
+        applicationId "com.jk.dayu.jkapp"
         minSdkVersion 20
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath true
+            }
+        }
     }
     buildTypes {
         release {
@@ -16,6 +21,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    useLibrary 'org.apache.http.legacy'
 }
 
 dependencies {
@@ -27,4 +33,17 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation 'commons-httpclient:commons-httpclient:3.1'
+    implementation 'com.alibaba:fastjson:1.2.44'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+
+    implementation 'org.apache.httpcomponents:httpcore:4.4.5'
+
+    implementation 'javax.annotation:javax.annotation-api:1.2'
+
+    implementation 'org.projectlombok:lombok:1.16.8'  //添加lombok依赖
+
+
 }

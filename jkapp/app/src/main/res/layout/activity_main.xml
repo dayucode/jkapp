@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_gray"
-    tools:context=".BaseModule.MainActivity">
-
+    tools:context="com.jk.dayu.jkapp.BaseModule.MainActivity">
     <FrameLayout
         android:id="@+id/ly_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/rg_tab_bar"></FrameLayout>
+        android:layout_above="@id/rg_tab_bar">
+    </FrameLayout>
 
     <RadioGroup
         android:id="@+id/rg_tab_bar"

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.jk.wyq.jkapp.MineModule.MineFragment">
+    tools:context="com.jk.dayu.jkapp.MineModule.MineFragment">
 
 
     <RelativeLayout
@@ -16,6 +16,7 @@
         android:background="@color/color_main">
 
         <ImageView
+            android:layout_marginTop="10dp"
             android:id="@+id/icon"
             android:layout_width="60dp"
             android:layout_height="60dp"

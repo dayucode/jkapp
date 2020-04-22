@@ -7,7 +7,7 @@
     <LinearLayout
         android:id="@+id/layout_titlebar"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_height="50dp"
         android:background="@color/colorPrimary"
         android:fitsSystemWindows="true"
         android:orientation="horizontal">

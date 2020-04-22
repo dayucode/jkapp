@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.jk.wyq.jkapp.BaseModule.WebActivity">
+    tools:context="com.jk.dayu.jkapp.BaseModule.WebActivity">
 
     <WebView
         android:id="@+id/webview"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints" />
 </android.support.constraint.ConstraintLayout>

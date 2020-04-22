@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public interface TimeService {
 
-	public void save(TimeBean time);
-	public void update(TimeBean time);
+	void save(TimeBean time);
+
+	void update(TimeBean time);
 }

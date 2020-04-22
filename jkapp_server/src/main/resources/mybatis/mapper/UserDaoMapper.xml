@@ -3,11 +3,15 @@
 <mapper namespace="com.dayu.jkapp.server.mapper.UserDao">
 
     <insert id="insert">
-        insert into user (id, name, password) values (#{id}, #{name}, #{password});
+        insert into user (id, name, password,age,sex,role) values (#{id}, #{name}, #{password},#{age},#{sex},#{role});
     </insert>
 
     <select id="select" resultType="com.dayu.jkapp.server.pojo.UserBean">
-        select * from user where name = #{name} and password = #{password};
+        select * from user where name = #{name} and password = #{password} and role = #{role};
+    </select>
+
+    <select id="selectUser" resultType="com.dayu.jkapp.server.pojo.UserBean">
+        select * from user where id = #{id};
     </select>
 
     <update id="update"  parameterType="com.dayu.jkapp.server.pojo.UserBean">

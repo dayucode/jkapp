@@ -11,7 +11,7 @@
         android:layout_height="30dp"
         android:paddingLeft="20dp"
         android:paddingTop="5dp"
-        android:text="健康检测"
+        android:text="&#12288;&#8194;健康检测"
         android:textStyle="bold"/>
     <View
         android:layout_width="match_parent"
@@ -24,17 +24,29 @@
         android:paddingLeft="10dp">
         <TextView
             android:id="@+id/txt_health"
+            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
-            android:textSize="26dp"
+            android:text="reqwrerrerer"
+            android:textColor="@color/red"
+            android:layout_centerVertical="true"
+            android:paddingLeft="50dp"
+            />
 
-            android:textColor="@color/red"/>
         <TextView
+            android:id="@+id/center"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/center"
+            android:layout_marginLeft="40dp"
             android:id="@+id/txt_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/txt_health"
             android:text="" />
     </RelativeLayout>
 </LinearLayout>

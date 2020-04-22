@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dayu.jkapp.server.mapper.ConditionDao">
+    <resultMap id="conditionList" type="Condition">
+        <id column="cid" property="cid" />
+        <result column="symptoms" property="symptoms" />
+        <result column="details" property="details" />
+        <result column="time" property="time" />
+        <result column="uid" property="uid" />
+        <result column="did" property="did" />
+    </resultMap>
+
+    <insert id="insert">
+        insert into `condition` (cid, symptoms,details, time, uid, did) values (#{cid}, #{symptoms}, #{details}, #{time}, #{uid}, #{did});
+    </insert>
+
+    <select id="doctor2select" resultMap="conditionList">
+        select * from `condition` where did = #{did};
+    </select>
+
+    <select id="user2select" resultMap="conditionList">
+        select * from `condition` where uid = #{uid};
+    </select>
+
+    <update id="update"  parameterType="com.dayu.jkapp.server.pojo.Condition">
+        UPDATE user
+        <trim prefix="set" suffixOverrides=",">
+            <if test="symptoms!=null">symptoms=#{symptoms},</if>
+            <if test="details!=details">details=#{details},</if>
+            <if test="time!=time">time=#{time},</if>
+            <if test="uid!=uid">uid=#{uid},</if>
+            <if test="did!=did">did=#{did},</if>
+        </trim>
+        WHERE cid=#{cid}
+    </update>
+
+</mapper>

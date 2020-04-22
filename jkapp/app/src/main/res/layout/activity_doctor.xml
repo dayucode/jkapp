@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jk.dayu.jkapp.Interrogation.DoctorActivity"
+    android:orientation="vertical"
+    android:background="@color/bg_gray"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary"
+        android:layout_height="50dp"
+        android:layout_width="match_parent">
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="坐诊选项"
+            android:gravity="center"
+            android:textSize="20sp"/>
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="显示所有症状信息"
+            android:id="@+id/show_conditisons_btn"
+            android:textSize="22sp"
+            android:background="@drawable/cricle_btn_blue"
+            android:textColor="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="查看回复信息"
+            android:id="@+id/show_replys_btn"
+            android:textSize="22sp"
+            android:background="@drawable/cricle_btn"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/show_conditisons_btn"
+            android:layout_alignStart="@+id/show_conditisons_btn" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -14,7 +14,11 @@ import java.util.List;
 @Service
 public interface UserService {
 
-	public UserBean select(UserBean user);
-	public boolean insert(UserBean user);
-	public void update(UserBean userBean);
+	UserBean select(UserBean user);
+
+	boolean insert(UserBean user);
+
+	void update(UserBean userBean);
+
+	UserBean selectUser(long id);
 }

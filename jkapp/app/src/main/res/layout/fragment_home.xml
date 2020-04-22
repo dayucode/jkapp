@@ -4,13 +4,29 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/bg_gray"
-    tools:context="com.jk.wyq.jkapp.BaseModule.HomeFragment">
+    tools:context="com.jk.dayu.jkapp.BaseModule.HomeFragment">
+    <android.support.v7.widget.Toolbar
+        android:layout_marginTop="20dp"
+        android:id="@+id/toolbar"
+        android:background="@color/bg_white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/bg_black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Care for You"
+            android:gravity="center"
+            android:textSize="20dp"/>
+    </android.support.v7.widget.Toolbar>
 
     <LinearLayout
+        android:layout_marginTop="85dp"
         android:id="@+id/top"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:baselineAligned="false" android:orientation="horizontal"
         android:paddingBottom="15dp"
         android:background="@color/bg_white">
         <RelativeLayout

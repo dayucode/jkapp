@@ -37,4 +37,9 @@ public class UserServiceImpl implements UserService {
 		userDao.update(userBean);
 	}
 
+	@Override
+	public UserBean selectUser(long id) {
+		return userDao.selectUser(id);
+	}
+
 }

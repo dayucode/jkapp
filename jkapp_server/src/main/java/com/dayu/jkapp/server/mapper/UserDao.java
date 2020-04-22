@@ -15,5 +15,6 @@ public interface UserDao {
 	UserBean select(UserBean user);
 	boolean insert(UserBean user);
 	void update(UserBean userBean);
+	UserBean selectUser(long id);
 
 }

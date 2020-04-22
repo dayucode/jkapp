@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public interface HealthService {
 
-	public void save(Health health);
-	public void update(Health health);
+	void save(Health health);
+
+	void update(Health health);
 }
