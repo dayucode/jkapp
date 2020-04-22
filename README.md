@@ -22,7 +22,6 @@
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG2.jpg)
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG3.jpg)
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG4.jpg)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG5.jpg)
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG6.jpg)
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG7.jpg)
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG8.jpg)
