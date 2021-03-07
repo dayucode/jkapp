@@ -17,7 +17,7 @@
 ### 记步原理 https://www.jianshu.com/p/5d57f7fd84fa </br>
 ### https://github.com/finnfu/stepcount/tree/master/demo
 
-### Apk测试页面展示</br>
+### Apk测试页面展示/最近在代码和样式上简单做了优化后五张图片是二次优化</br>
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG1.jpg)
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG2.jpg)
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG3.jpg)
