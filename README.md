@@ -42,6 +42,11 @@
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG20.jpg)
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG21.jpg)
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG22.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/1.png)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/2.png)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/3.png)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/4.png)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/5.png)
 
 #### 如有任何问题请咨询
 #### 微信：
