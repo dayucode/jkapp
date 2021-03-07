@@ -22,9 +22,7 @@
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG2.jpg)
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG3.jpg)
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG4.jpg)
-
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG5.png)
-
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG6.jpg)
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG7.jpg)
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG8.jpg)
@@ -43,10 +41,10 @@
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG21.jpg)
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/WechatIMG22.jpg)
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/1.png)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/2.png)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/3.png)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/4.png)
-![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/5.png)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/2.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/3.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/4.jpg)
+![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/5.jpg)
 
 #### 如有任何问题请咨询
 #### 微信：
