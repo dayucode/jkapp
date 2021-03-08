@@ -46,7 +46,7 @@
 
 #### 如有任何问题请咨询
 #### 微信：
-![image](https://github.com/laughter-dayu/github.io/blob/master/pic/wexin.jpg)
+![image](https://github.com/laughter-dayu/blob/master/pic/wexin.jpg)
 #### 或邮箱
 #### 1161449935@qq.com
 
