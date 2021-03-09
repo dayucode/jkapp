@@ -48,7 +48,7 @@
 #### 微信：
 ![image](https://github.com/laughter-dayu/jkapp/blob/master/pic/wexin.jpg)
 #### 或邮箱
-#### https://github.com/dayucode
+#### dayucode@foxmail.com
 
 
 
