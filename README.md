@@ -1,3 +1,14 @@
+### 健康管理系统新版本
+### App（原生），微信公众号（h5）、uniApp（混合开发）+后台管理三个版本
+### 移至：https://github.com/dayucode/jkapp_andriod
+
+
+
+
+
+
+
+
 ### 开发工具：AndriodStudio3.6+IntelliJIDEA2019</br>
 ### 简要描述：</br>
 #### 本系统分为客户端和服务端
